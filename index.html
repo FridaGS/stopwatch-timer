@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time buddy</title>
+    <link rel="stylesheet" href="stye.css">
+</head>
+<body onload="renderCrono()">
+    <header></header>
+    <main>
+        <audio id="audio" controls>
+            <source type="audio/wav" src="audio.webm">
+        </audio>
+        <div class="options">
+            <ul>
+                <li class="crono"><a><img src="clock.png" alt="clock"><span>Cronómetro</span></a></li>
+                <li class="tempo"><a><img src="sand-clock.png" alt="sand clock"><span>Temporizador</span></a></li>
+                <li class="pomo"><a><img src="tomato.png" alt="tomato"><span>Pomodoro</span></a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <!--Render here-->
+        </div>
+    </main>
+    <noscript>Please, turn on JavaScript and try again.</noscript>
+    <script src="index.js"></script>
+</body>
+</html>

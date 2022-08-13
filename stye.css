@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121212;
+    color: #EFEFEF;
+    font-family: consolas, "Courier New", monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    width: 80%;
+    text-align: center;
+}
+main audio{
+    display: none;
+}
+main div{
+    margin: 0 auto;
+    width: 70%;
+}
+.options ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.options li{
+    padding: 0 10px;
+}
+.options li img{
+    padding: 5px 0;
+    width: 30px;
+}
+.options li span{
+    display: none;
+}
+.options a{
+    text-decoration: none;
+    color: #EFEFEF;
+}
+.active{
+    background: rgb(7,57,153);
+    background: linear-gradient(90deg, rgba(7,57,153,1) 0%, rgba(6,84,171,1) 37%, rgba(4,135,204,1) 64%, rgba(2,123,225,1) 90%, rgba(0,138,255,1) 100%);
+    border-radius: 10px 10px 0 0;
+}
+.active a img{
+    padding: 15px 0;
+}
+.main-content{
+    min-height: 30vh;
+    background: rgb(7,57,153);
+    background: linear-gradient(90deg, rgba(7,57,153,1) 0%, rgba(6,84,171,1) 37%, rgba(4,135,204,1) 64%, rgba(2,123,225,1) 90%, rgba(0,138,255,1) 100%);
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+.clock-container input{
+    width: 30px;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: consolas, "Courier New", monospace;
+}
+.clock-container input::placeholder{
+    color: #efefef;
+}
+.buttons-container{
+    display: block;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.buttons-container button{
+    border: none;
+    border-radius: 10px;
+    min-width: 150px;
+    height: 4vh;
+    background-color: #EFEFEF;
+    font-family: consolas, "Courier New", monospace;
+    font-size: 15px;
+}
